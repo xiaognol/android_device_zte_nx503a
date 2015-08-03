@@ -156,7 +156,7 @@ TARGET_FORCE_CPU_UPLOAD := true
 # RIL
 
 BOARD_RIL_CLASS := ../../../device/zte/nx503a/telephony-common/
-
+BOARD_PROVIDES_LIBRIL := true
 # Init
 TARGET_NO_INITLOGO := true
 
