@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--Please do not manually edit this file-->
 <manifest>
-  <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-11.0" />
-  <project name="CyanogenMod/android_hardware_qcom_media-caf-new" path="hardware/qcom/media-caf-new" remote="github" revision="cm-11.0" />
-  <project name="CyanogenMod/android_hardware_qcom_display-caf-new" path="hardware/qcom/display-caf-new" remote="github" revision="cm-11.0" />
-  <project name="CyanogenMod/android_hardware_qcom_fm" path="hardware/qcom/fm" remote="github" revision="cm-11.0" />
-  <project name="omnirom/android_bootable_recovery" path="bootable/recovery-twrp" remote="github" revision="android-4.4" />
+	<remote name="github"
+          fetch="http://github.com" />
+
+  <project name="mokee/android_device_qcom_common" path="device/qcom/common" remote="github" revision="kk_mkt" />
+  <project name="mokee/android_hardware_qcom_media-caf-new" path="hardware/qcom/media-caf-new" remote="github" revision="kk_mkt" />
+  <project name="mokee/android_hardware_qcom_display-caf-new" path="hardware/qcom/display-caf-new" remote="github" revision="kk_mkt" />
+  <project name="mokee/android_hardware_qcom_fm" path="hardware/qcom/fm" remote="github" revision="kk_mkt" />
+  <project name="xiaognol/android_kernel_zte_nx503a" path="kernel/zte/nx503a" remote="github" revision="cm-11.0" />
+  <project name="xiaognol/android_vendor_zte_nx503a" path="vendor/zte/nx503a" remote="github" revision="kk_mkt" />
+  <project name="xiaognol/android_device_zte_nx503a" path="device/zte/nx503a" remote="github" revision="kk_mkt" />
 </manifest>

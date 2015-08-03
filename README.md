@@ -1,6 +1,6 @@
-    git clone https://github.com/gentu/android_device_zte_nx503a.git device/zte/nx503a
-    git clone https://github.com/gentu/android_kernel_zte_nx503a.git kernel/zte/nx503a
-    git clone https://gentu@bitbucket.org/gentu/vendor_zte_nx503a.git vendor/zte/nx503a
+    git clone https://github.com/xiaognol/android_device_zte_nx503a.git device/zte/nx503a
+    git clone https://github.com/xiaognol/android_kernel_zte_nx503a.git kernel/zte/nx503a
+    git clone https://github.com/xiaognol/vendor_zte_nx503a.git vendor/zte/nx503a
     # or edit .repo/local_manifests/roomservice.xml
 
     mkdir -p .repo/local_manifests/
@@ -19,7 +19,7 @@
 
     # Compile
     . build/envsetup.sh
-    lunch cm_nx503a-userdebug
+    lunch mk_nx503a-userdebug
     mka otapackage
 
     ### Also useful

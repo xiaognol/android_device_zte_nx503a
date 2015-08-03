@@ -18,11 +18,11 @@ import common
 
 def Thanks(self):
     self.script.AppendExtra('ui_print("===========================================");')
-    self.script.AppendExtra('ui_print("                  4pda.ru");')
+    self.script.AppendExtra('ui_print("                  Mokee 4.4.4");')
     self.script.AppendExtra('ui_print("===========================================");')
-    self.script.AppendExtra('ui_print("    Author : MaX51v");')
+    self.script.AppendExtra('ui_print("    Author : ZJL");')
     self.script.AppendExtra('ui_print("    Thanks :");')
-    self.script.AppendExtra('ui_print("             syhost,XianGxin,Buslik");')
+    self.script.AppendExtra('ui_print("             4pda.ru,syhost,XianGxin,Buslik");')
     self.script.AppendExtra('ui_print("===========================================");')
 
 def FullOTA_Assertions(self):
