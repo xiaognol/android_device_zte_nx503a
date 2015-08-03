@@ -154,6 +154,7 @@ ENABLE_WEBGL := true
 TARGET_FORCE_CPU_UPLOAD := true
 
 # RIL
+
 BOARD_RIL_CLASS := ../../../device/zte/nx503a/telephony-common/
 
 # Init
@@ -206,11 +207,14 @@ TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
 BOARD_USE_CUSTOM_RECOVERY_FONT := \"roboto_23x41.h\"
 
 # TWRP
-RECOVERY_VARIANT := twrp
+#RECOVERY_VARIANT := twrp
 DEVICE_RESOLUTION := 1080x1920
 RECOVERY_GRAPHICS_USE_LINELENGTH := true
 #TARGET_USE_CUSTOM_LUN_FILE_PATH := /sys/devices/msm_dwc3/f9200000.dwc3/gadget/lun%d/file
-TARGET_PREBUILT_RECOVERY_KERNEL := vendor/zte/nx503a/recovery_kernel
+
+# DEXOPT
+# WITH_DEXPREOPT := true
+#TARGET_PREBUILT_RECOVERY_KERNEL := vendor/zte/nx503a/recovery_kernel
 #BOARD_HAS_NO_REAL_SDCARD := true
 
 # ota

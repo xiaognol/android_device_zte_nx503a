@@ -218,9 +218,9 @@ PRODUCT_PACKAGES += \
     qrngtest
 
 # for off charging mode
-PRODUCT_PACKAGES += \
-    charger \
-    charger_res_images
+#PRODUCT_PACKAGES += \
+#    charger \
+#    charger_res_images
 
 # Recovery Options
 PRODUCT_PROPERTY_OVERRIDES += \
