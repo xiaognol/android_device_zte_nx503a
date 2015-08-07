@@ -1,21 +1,10 @@
-    git clone https://github.com/xiaognol/android_device_zte_nx503a.git device/zte/nx503a
-    git clone https://github.com/xiaognol/android_kernel_zte_nx503a.git kernel/zte/nx503a
-    git clone https://github.com/xiaognol/vendor_zte_nx503a.git vendor/zte/nx503a
+    git clone https://github.com/xiaognol/android_device_zte_nx503a.git -b kk_mkt device/zte/nx503a
+    git clone https://github.com/xiaognol/android_kernel_zte_nx503a.git -b kk_mkt kernel/zte/nx503a
+    git clone https://github.com/xiaognol/vendor_zte_nx503a.git -b kk_mkt vendor/zte/nx503a
     # or edit .repo/local_manifests/roomservice.xml
 
     mkdir -p .repo/local_manifests/
     cp ../../device/zte/nx503a/roomservice.xml .repo/local_manifests/
-
-    sudo ln -sf "$PWD/device/zte/nx503a/cmtools" /usr/local/bin/
-    cmtools s
-          ##s = set current directory as source directory
-    cmtools cup
-          ##c = clean repo
-          ###u = update repo
-          ####p = patch repo
-
-    # For update device/kernel/vendor use
-    cmtools d
 
     # Compile
     . build/envsetup.sh

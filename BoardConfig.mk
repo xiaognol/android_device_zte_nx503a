@@ -18,6 +18,9 @@ TARGET_BOARD_INFO_FILE := device/zte/nx503a/board-info.txt
 # ZTE Platform
 BOARD_VENDOR := zte
 
+# Keylayout
+PRODUCT_COPY_FILES := $(filter-out frameworks/base/data/keyboards/Generic.kl:system/usr/keylayout/Generic.kl , $(PRODUCT_COPY_FILES))
+
 # Architecture
 TARGET_CPU_ABI := armeabi-v7a
 TARGET_CPU_ABI2 := armeabi
